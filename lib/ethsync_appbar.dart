@@ -24,9 +24,9 @@ class AppBarPage extends StatelessWidget implements PreferredSizeWidget {
       // title: Text(EthSyncLocalizations.of(context).title),
       title: Text("ethSync"), //Title
       bottom: TabBar(tabs: [
-        Tab(icon: Icon(Icons.info, color: Colors.redAccent)),
-        Tab(icon: Icon(Icons.attach_money, color: Colors.amberAccent)),
-        Tab(icon: Icon(Icons.laptop, color: Colors.blueAccent)),
+        Tab(icon: Icon(Icons.desktop_windows, color: Colors.redAccent)),
+        Tab(icon: Icon(Icons.laptop, color: Colors.amberAccent)),
+        Tab(icon: Icon(Icons.web, color: Colors.blueAccent)),
         Tab(icon: Icon(Icons.school, color: Colors.redAccent)),
       ]),
       actions: <Widget>[
@@ -138,7 +138,8 @@ class AppBarPage extends StatelessWidget implements PreferredSizeWidget {
             // ),
             const PopupMenuDivider(),
             PopupMenuItem(
-              child: Icon(Icons.settings, color: Colors.redAccent),
+              child: Icon(Icons.theater_comedy,
+                  color: Colors.redAccent), //settings
             ),
             PopupMenuItem(
               child: const Text('Settings'),

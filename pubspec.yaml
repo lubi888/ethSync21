@@ -25,7 +25,7 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter  
-  # sasync: ^2.7.0
+    
   url_launcher: ^6.0.6
   # flutter_linkify: ^4.0.0
   # intl: ^0.17.0
@@ -38,6 +38,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^0.1.7
+
+flutter_native_splash:
+  image: assets/splash.png
+  color: "#000000"    
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
