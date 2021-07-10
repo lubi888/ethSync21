@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 // import 'dart:io';
 // import 'package:firebase_admob/firebase_admob.dart';
 // import 'package:admob_flutter/admob_flutter.dart';
